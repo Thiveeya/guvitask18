@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(5, 58, 58);
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+.card{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+    background: rgb(116,109,238);
+    background: linear-gradient(149deg, rgba(116,109,238,1) 0%, rgba(135,237,212,1) 100%);
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+h3{
+    position: relative;
+    color: rgb(251, 251, 252);
+    text-decoration: underline;
+    font-family:sans-serif;
+    top: -19px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(61, 38, 104);
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+    
+}
+.container{
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.cName,.cWeather{
+    color: white;
+}
+
+.text-center{
+    margin: 30px;
+}
